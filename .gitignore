@@ -2,5 +2,6 @@ src/assets/js/components
 node_modules
 .idea
 bower_components
+dist
 *.iml
 **.DS_Store
