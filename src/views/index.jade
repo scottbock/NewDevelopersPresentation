@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+@scottbock
+  Sign out
+  Unwatch 1
+    Star 0
+  Fork 0 scottbock/NewDevelopersPresentation
+  Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Tree: bf1154be93 Find file Copy pathNewDevelopersPresentation/src/views/index.jade
+bf1154b  14 minutes ago
+@scottbock scottbock more slides
+2 contributors @scottbock @staticnull
+RawBlameHistory
+288 lines (276 sloc)  11 KB
 !!! 5
 //if IE 7
   html(lang="en", class="no-js ie", data-ng-app="main", id="ng-app")
@@ -271,17 +289,19 @@ html(class="no-js", ng-app="main")
 
     // If the query includes 'print-pdf', use the PDF print sheet
     script(type='text/javascript').
-      if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = './assets/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-      } else if ( window.location.search.match( /print-paper/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = './assets/css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-      }
+        if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = './assets/css/print/pdf.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        } else if ( window.location.search.match( /print-paper/gi ) ) {
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = './assets/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        }
 
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
